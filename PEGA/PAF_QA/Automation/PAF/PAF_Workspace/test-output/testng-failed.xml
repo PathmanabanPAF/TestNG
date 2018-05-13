@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [PAF_CreatePatient]" parallel="tests">
+  <listeners>
+    <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
+    <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
+    <listener class-name="atu.testng.reports.listeners.MethodListener"/>
+  </listeners>
+  <test name="PAF-SearchPatient(failed)" parallel="tests">
+    <classes>
+      <class name="com.paf.scripts.TC1_Gmail_login">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.paf.scripts.TC1_Gmail_login -->
+    </classes>
+  </test> <!-- PAF-SearchPatient(failed) -->
+</suite> <!-- Failed suite [PAF_CreatePatient] -->

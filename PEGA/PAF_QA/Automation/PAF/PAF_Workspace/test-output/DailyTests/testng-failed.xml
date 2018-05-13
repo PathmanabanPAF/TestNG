@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DailyTests]">
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="Example.Login">
+        <methods>
+          <include name="afterClass"/>
+          <include name="Login"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Example.Login -->
+      <class name="Example.Register">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Example.Register -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [DailyTests] -->

@@ -1,0 +1,5 @@
+WinWaitActive("Authentication Required")
+Send("PAF848")
+Send("{TAB}")
+Send("rules")
+Send("{ENTER}")

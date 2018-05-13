@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+  </reporter-output>
+  <suite name="PAF_CreatePatient" duration-ms="40016" started-at="2018-05-13T11:18:17Z" finished-at="2018-05-13T11:18:57Z">
+    <groups>
+    </groups>
+    <test name="PAF-SearchPatient" duration-ms="40016" started-at="2018-05-13T11:18:17Z" finished-at="2018-05-13T11:18:57Z">
+      <class name="com.paf.scripts.TC1_Gmail_login">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.paf.scripts.TC1_Gmail_login@878618f]" name="test" duration-ms="39999" started-at="2018-05-13T07:18:17Z" finished-at="2018-05-13T07:18:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.paf.scripts.TC1_Gmail_login -->
+    </test> <!-- PAF-SearchPatient -->
+  </suite> <!-- PAF_CreatePatient -->
+</testng-results>

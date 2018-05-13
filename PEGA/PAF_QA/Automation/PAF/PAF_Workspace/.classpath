@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/ATUReporter_Selenium_testNG_5.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/mysql-connector-java-5.1.40-bin.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/reportng-1.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/selenium-htmlunit-driver-2.35.0.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/sqljdbc.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/ucanaccess-3.0.6.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/javax.mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="F:/PEGA/PAF_QA/Automation/PAF/PAF_Workspace/PAF_Library/mail-6.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

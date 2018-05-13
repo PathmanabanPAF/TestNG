@@ -1,0 +1,5 @@
+WinWaitActive("Authentication Required")
+Send("PAF879")
+Send("{TAB}")
+Send("Fipsar@2016")
+Send("{ENTER}")

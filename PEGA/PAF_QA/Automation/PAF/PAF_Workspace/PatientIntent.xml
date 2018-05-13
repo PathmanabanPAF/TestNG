@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="PAF_CreatePatient" verbose="1" parallel="tests" thread-count="10">
+  
+  <test name="PAF-SearchPatient">
+
+    <classes>
+      <class name="com.paf.patientintents.TC11_CreatePatient_CPR"/>
+   	  <class name="com.paf.patientintents.TC1_SearchPatientbypatientid_CPR"/>
+      <class name="com.paf.patientintents.TC2_SearchPatientbypatientcontactid_CPR"/>
+      <class name="com.paf.patientintents.TC3_SearchPatientbypatientname_CPR"/>
+      <class name="com.paf.patientintents.TC4_SearchPatientbypatientdob_CPR"/>
+      <class name="com.paf.patientintents.TC5_SearchPatientbypatientSSN_CPR"/>
+      <class name="com.paf.patientintents.TC6_SearchPatientbypatientlocation_CPR"/>
+      <class name="com.paf.patientintents.TC7_Searchbyinvalidinput_CPR"/>
+      <class name="com.paf.patientintents.TC8_Wrapupprocess_CPR"/>
+      <class name="com.paf.patientintents.TC9_VerifyInteractions_CPR"/>
+      <class name="com.paf.patientintents.TC10_VerifyLandingPage_CPR"/>
+      <class name="com.paf.patientintents.TC11_CreatePatient_CPR"/>
+      <class name="com.paf.patientintents.TC12_CreatePatientwithinvalid_CPR"/>
+      <class name="com.paf.patientintents.TC1_SearchPatientbypatientid_LLS"/>
+      <class name="com.paf.patientintents.TC2_SearchPatientbypatientcontactid_LLS"/>
+      <class name="com.paf.patientintents.TC3_SearchPatientbypatientname_LLS"/>
+      <class name="com.paf.patientintents.TC4_SearchPatientbypatientdob_LLS"/>
+      <class name="com.paf.patientintents.TC5_SearchPatientbypatientSSN_LLS"/>
+      <class name="com.paf.patientintents.TC6_SearchPatientbypatientlocation_LLS"/>
+      <class name="com.paf.patientintents.TC7_Searchbyinvalidinput_LLS"/>
+      <class name="com.paf.patientintents.TC8_Wrapupprocess_LLS"/>
+      <class name="com.paf.patientintents.TC9_VerifyInteractions_LLS"/>
+      <class name="com.paf.patientintents.TC10_VerifyLandingPage_LLS"/>
+      <class name="com.paf.patientintents.TC11_CreatePatient_LLS"/>
+      <class name="com.paf.patientintents.TC12_CreatePatientwithinvalid_LLS"/>
+      <class name="com.paf.patientintents.Writelog"/>
+            </classes>
+  </test>
+      <listeners>
+        <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+    </listeners>
+</suite>

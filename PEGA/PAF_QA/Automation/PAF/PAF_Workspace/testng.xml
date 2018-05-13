@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="PAF_CreatePatient" verbose="1" parallel="tests" thread-count="10">
+  
+  <test name="PAF-SearchPatient">
+
+    <classes>
+      <class name="com.paf.scripts.TC1_Gmail_login"/>
+   
+            </classes>
+  </test>
+  <listeners>
+        <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+        <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+    </listeners>
+    <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.39</version>
+</dependency>
+</suite>

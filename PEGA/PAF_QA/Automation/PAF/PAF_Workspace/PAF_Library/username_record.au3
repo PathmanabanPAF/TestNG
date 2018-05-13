@@ -1,0 +1,5 @@
+WinWaitActive("Authentication Required","")
+MouseClick("left",112,70,1)
+MouseClick("left",117,80,1)
+Send("{SHIFTDOWN}paf{SHIFTUP}848{TAB}rules")
+MouseClick("left",265,140,1)
